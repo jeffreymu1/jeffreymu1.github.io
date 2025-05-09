@@ -1,24 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
 body {
-  font-family: monospace;
-  background-color: #fff;
+  font-family: 'Libre Baskerville', serif;
+  background-color: #eeeaf6;
   color: #000;
   padding: 40px;
   max-width: 700px;
   margin: auto;
+  line-height: 1.8;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-ul li {
-  margin-bottom: 5px;
-}
 
 a {
   text-decoration: none;
-  color: #000;
+  color:#000;
 }
 
 a:hover {
@@ -27,10 +22,28 @@ a:hover {
 
 h1 {
   margin-bottom: 20px;
+  line-height: 2.8;
 }
 
-.menu, .writing {
+
+.menu {
+  margin-top: 30px;
+  margin-left: 30px
+}
+
+.menu p {
+  margin-bottom: 8px;
+}
+
+.writing {
   margin-top: 20px;
+}
+
+
+.writing-label {
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 30px;
 }
 
 p {
@@ -39,4 +52,59 @@ p {
 
 .double-space {
   margin-bottom: 2.4em;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 65px;
+  line-height: 1.8;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 50px;
+  color: #000;
+  text-decoration: none;
+  margin-left: 10px;
+  line-height: 1;
+}
+
+.back-button:hover {
+  color: #555;
+  cursor: pointer;
+}
+
+.inspired-by {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 10px;
+  color: #555;
+  font-family: 'Libre Baskerville', serif;
+  background-color: #eeeaf6;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.inspired-by:hover {
+  color: #333;
+  background-color: #eeeaf6;
+}
+
+
+.post-date {
+  position: absolute;
+  top: 45px;
+  right: 65px;
+  font-size: 15px;
+  color: #888; /* Light gray color */
+  font-family: 'Libre Baskerville', serif;
+  opacity: 0.8;
 }
