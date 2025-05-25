@@ -2,4 +2,4 @@
 
 This is my working profile page.
 
-**Live Site** [jeffreymu1.github.io](https://jeffreymu1.github.io)
+**Live Site: ** [jeffreymu1.github.io](https://jeffreymu1.github.io)
