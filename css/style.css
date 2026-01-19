@@ -298,3 +298,20 @@ figure figcaption {
 .section-spacer {
   height: 32px;
 }
+
+:root {
+  --icon-hover: #840c0c;
+}
+
+a.icon-link {
+  transition: color 140ms ease, text-decoration-color 140ms ease;
+  text-decoration: none;
+  text-decoration-color: currentColor;
+}
+
+a.icon-link:hover {
+  color: var(--icon-hover);
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+}
+
